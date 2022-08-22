@@ -11,20 +11,20 @@ export interface IFooterContacts {
 }
 
 export const footerContacts: IFooterContacts[] = [
-  {
+/*  {
     id: 0,
     url: 'https://www.instagram.com/stepmed_clinic/',
     icon: <InstagramIcon />,
-  },
+  },*/
   {
-    id: 1,
+    id: 0,
     url: 'https://spb.napopravku.ru/clinics/stepmed-klinik-poliklinika/',
     icon: <NapopravkuIcon />,
   },
   {
-    id: 2,
+    id: 1,
     url: 'https://prodoctorov.ru/spb/lpu/72519-stepmed-klinik/',
     icon: <ProdoktorovIcon />,
   },
-  { id: 3, url: 'https://go.2gis.com/ys33dt', icon: <TwogisIcon /> },
+  { id: 2, url: 'https://go.2gis.com/ys33dt', icon: <TwogisIcon /> },
 ];
