@@ -115,7 +115,7 @@ const FooterBootom = () => (
   <div className="flex flex-col 2xl:flex-row">
     <div className="flex flex-col flex-grow mr-10">
       <span className="mb-2 text-base text-white lg:mb-4">
-        Степмед Клиник © 2021
+        Степмед Клиник © 2022
       </span>
       <div className="flex flex-col lg:flex-row">
         <span className="mb-1 text-sm text-white opacity-50 lg:mb-0 lg:mr-6">
