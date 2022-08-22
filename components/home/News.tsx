@@ -13,9 +13,8 @@ const News = () => (
         освещаем новости и интересные события из мира онкологии. Ниже можно
         ознакомиться со свежими публикациями.
       </p>
-      <InstagramFeed token={process.env.INSTAGRAM_TOKEN} counter="8" />
     </div>
   </>
 );
-
+//<InstagramFeed token={process.env.INSTAGRAM_TOKEN} counter="8" />
 export default News;
