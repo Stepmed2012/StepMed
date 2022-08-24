@@ -15,11 +15,11 @@ export const navBarMenu: INavBarMenu[] = [
     id: 1,
     title: 'О клинике',
   },
-  // {
-  //   id: 2,
-  //   url: '/nashi-vrachi',
-  //   title: 'Наши сотрудники',
-  // },
+  {
+    id: 2,
+    url: '/nashi-vrachi',
+    title: 'Сотрудники',
+  },
   {
     id: 3,
     title: 'Пациентам',

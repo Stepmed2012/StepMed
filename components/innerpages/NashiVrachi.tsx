@@ -3,16 +3,21 @@ import { FC } from 'react';
 
 const StaffProfile: FC<IStaff> = (staff) => {
   return (
-    <div className="flex flex-col mt-8">
-      <img
+    <div className="flex lg:flex-row flex-col mt-12">
+      <div className="w-[250px] min-w-[250px] mr-4">
+         <img
         alt={staff.fullName}
-        src={staff.photoUrl || ''}
-        className="rounded-2xl"
+        src={staff.photoUrl || '/images/staff/default.jpg'}
+        className=""
       />
-      <h1 className="mt-6 font-normal">{staff.fullName}</h1>
-      <h2 className="font-normal text-primary">{staff.workPosition}</h2>
-      <h2 className="custom-title">Обо мне</h2>
-      <p className="custom-text">{staff.description}</p>
+      </div>
+      <div>
+        <h1 className="font-normal">{staff.fullName}</h1>
+        <h2 className="font-normal text-primary">{staff.workPosition}</h2>
+        <ul className="custom-text">
+          {staff.education.map(e => (<li className="mb-2">{e}</li>))}
+        </ul>
+      </div>
     </div>
   );
 };
