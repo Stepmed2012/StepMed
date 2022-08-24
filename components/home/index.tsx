@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <Dashboard />
       <About />
-      <News />
+      {/*<News />*/}
       <Partners />
     </>
   );
