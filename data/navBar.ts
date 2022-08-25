@@ -26,6 +26,11 @@ export const navBarMenu: INavBarMenu[] = [
   },
   {
     id: 4,
+    url: '/clinical-studies',
+    title: 'Клинические исследования ',
+  },
+  {
+    id: 5,
     url: '/contacts',
     title: 'Контакты',
   },
