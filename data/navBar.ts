@@ -125,4 +125,9 @@ export const forPatientsSubMenu: INavBarMenu[] = [
     url: '/anketa-kachestva',
     title: 'Анкета качества',
   },
+  {
+    id: 10,
+    url: '/dostupnaya-sreda',
+    title: 'Доступная среда',
+  },
 ];
