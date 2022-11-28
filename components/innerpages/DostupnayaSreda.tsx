@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const DostupnayaSreda = () => (
   <div className="container">
     <h1>Доступная среда</h1>
@@ -79,8 +81,12 @@ const DostupnayaSreda = () => (
       (812) 219-50-27 или на сайте.
     </p>
     <p className="custom-text">
-      Ознакомиться с информацией о маршрутах общественного транспорта от ближайших станций метро можно в разделе
-      Контакты (ссылка на раздел.)
+      Ознакомиться с информацией о маршрутах общественного транспорта от ближайших станций метро можно в разделе&nbsp;
+      <Link href="/contacts">
+        <a className="text-base text-primary custom-link md:text-lg lg:text-xl">
+          контакты
+        </a>
+      </Link>
     </p>
     <div className="custom-list">
       <p className="custom-list-heading"> Основные нормативные правовые акты:</p>
