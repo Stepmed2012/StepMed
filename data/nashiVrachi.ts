@@ -34,21 +34,6 @@ export const staffDoctors: IStaff[] = [
     social: {},
   },
   // {
-  //   id: 1,
-  //   photoUrl: '/images/staff/vasyusina.jpg',
-  //   fullName: 'Васюсина Ольга Владимировна',
-  //   workPosition: 'Врач-онколог',
-  //   description: '',
-  //   education: [
-  //     'ГБОУ ВПО "Первый Санкт-Петербургский государственный медицинский университет имени академика И.П.Павлова" Министерства Здравоохранения РФ СПб - «лечебное дело» 2017г.',
-  //     'ГБОУ ВПО "Первый Санкт-Петербургский государственный медицинский университет имени академика И.П.Павлова" Министерства Здравоохранения РФ СПб - «онкология» 2019г.'
-  //   ],
-  //   professionalCommunity: [''],
-  //   advancedTraining: [],
-  //   publications: [],
-  //   social: {},
-  // },
-  // {
   //   id: 2,
   //   photoUrl: '/images/staff/shadov.jpg',
   //   fullName: 'Шадов Виталий Сергеевич',
@@ -64,7 +49,7 @@ export const staffDoctors: IStaff[] = [
   //   social: {},
   // },
   {
-    id: 3,
+    id: 1,
     photoUrl: '',
     fullName: 'Аксенов Михаил Сергеевич',
     workPosition: 'Врач-онколог',
@@ -79,7 +64,7 @@ export const staffDoctors: IStaff[] = [
     social: {},
   },
   {
-    id: 4,
+    id: 2,
     photoUrl: '',
     fullName: 'Куткович Андрей Владимирович',
     workPosition: 'Врач-онколог',
@@ -93,7 +78,7 @@ export const staffDoctors: IStaff[] = [
     publications: [],
     social: {},
   }, {
-    id: 5,
+    id: 3,
     photoUrl: '',
     fullName: 'Божанов Илья Александрович',
     workPosition: 'Врач-онколог',
@@ -108,7 +93,24 @@ export const staffDoctors: IStaff[] = [
     advancedTraining: [],
     publications: [],
     social: {},
-  }, {
+  },
+  {
+    id: 4,
+    photoUrl: '/images/staff/pasko.jpg',
+    fullName: 'Паско Алексей Анатольевич',
+    workPosition: 'Врач-онколог',
+    description: '',
+    education: [
+      'Белорусский государственный медицинский университет "Врач-лечебник" 2005г.',
+      'Белорусская медицинская академия постдипломного образования "онкология" 2017г.'
+    ],
+    professionalCommunity: [''],
+    advancedTraining: [],
+    publications: [],
+    social: {},
+  },
+
+  {
     id: 6,
     photoUrl: '',
     fullName: 'Кузнецова Елена Ивановна',
