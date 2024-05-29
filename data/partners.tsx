@@ -13,7 +13,7 @@ export const partnersLogo: IPartnersLogo[] = [
   {
     id: 1,
     url: 'https://lokod.ru/',
-    image: '/images/partners/lokod.png',
+    image: '/images/partners/lokod-new.svg',
   },
   {
     id: 2,

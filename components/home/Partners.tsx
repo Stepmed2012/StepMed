@@ -4,7 +4,7 @@ import { IPartnersLogo, partnersLogo } from '@data/partners';
 const DashboardBlock: FC<IPartnersLogo> = ({ url, image }) => (
   <a
     href={url}
-    className="w-full duration-200 ease-in-out opacity-50 sm:w-2/3 md:w-full hover:opacity-100"
+    className="w-full justify-center flex items-center duration-200 ease-in-out opacity-50 sm:w-2/3 md:w-full hover:opacity-100"
     target="_blank"
   >
     <img src={image} />
