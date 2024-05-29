@@ -1,5 +1,8 @@
 import { FC } from 'react';
-import { IPartnersLogo, partnersLogo } from '@data/partners';
+import {
+  IPartnersLogo,
+  partnersLogo
+} from '@data/partners';
 
 const DashboardBlock: FC<IPartnersLogo> = ({ url, image }) => (
   <a
