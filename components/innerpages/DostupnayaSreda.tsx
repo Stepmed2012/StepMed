@@ -3,11 +3,7 @@ import Link from "next/link";
 const DostupnayaSreda = () => (
   <div className="container">
     <h1>Доступная среда</h1>
-    <img src="/images/illustrations/dostup-sreda.webp"/>
-
-    <h2 className="custom-title">
-
-    </h2>
+    <img src="/images/illustrations/dostup-sreda.webp" alt=''/>
     <p className="custom-text">
       <a
         href="https://www.gov.spb.ru/static/writable/ckeditor/uploads/2020/12/09/08/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0_%D0%A0%D0%A4_%D0%BE%D1%82_29_03_2019_N_363_%D1%80%D0%B5%D0%B4__%D0%BE%D1%82.rtf"
@@ -62,10 +58,6 @@ const DostupnayaSreda = () => (
         <span className="custom-list-symbol"></span>
         <p>В Организации на этапе согласования проекта установка лифта для маломобильной группы лиц.</p>
       </div>
-      <div className="custom-list-container">
-        <span className="custom-list-symbol"></span>
-        <p>Запланирована организация места для ожидания собаки – поводыря.</p>
-      </div>
     </div>
     <p className="custom-text">
       Если Вы намерены посетить ООО «Степмед Клиник»- предварительно позвоните, пожалуйста, по телефонам для записи на
@@ -80,14 +72,61 @@ const DostupnayaSreda = () => (
       Получить необходимую информацию или записаться на прием лица с ограниченными возможностями могут по телефону: +7
       (812) 219-50-27 или на сайте.
     </p>
-    <p className="custom-text">
-      Ознакомиться с информацией о маршрутах общественного транспорта от ближайших станций метро можно в разделе&nbsp;
-      <Link href="/contacts">
-        <a className="text-base text-primary custom-link md:text-lg lg:text-xl">
-          контакты
-        </a>
-      </Link>
-    </p>
+    <div className="mt-6">
+      <h2 className="custom-list-heading">Контакты:</h2>
+
+      <p className="custom-text">г. Санкт-Петербург, Большеохтинский проспект, д.16 к.1 пом 7Н/15Н</p>
+      <p className="custom-text">Телефон: +7 (812) 219 50 27</p>
+      <p className="custom-text"> Электронная почта: clinic@step-med.com</p>
+      <p className="custom-text"> Режим работы: ежедневно с 9:00 до 19:00</p>
+    </div>
+    <div className="mt-6">
+      <h2 className="custom-list-heading">Как к нам добраться</h2>
+      <div className="grid grid-cols-1 gap-1 justify-center w-full">
+        <img
+          className="custom-accordion-img"
+          src="/images/contacts/C01.webp"
+          alt="маршрут от метро Чернышевская"
+        />
+        <img
+          className="custom-accordion-img"
+          src="/images/contacts/L01.webp"
+          alt="маршрут от метро Ладожская"
+        />
+        <img
+          className="custom-accordion-img"
+          src="/images/contacts/P01.webp"
+          alt="маршрут от метро Площадь Ленина"
+        />
+      </div>
+
+
+      <p className="custom-text">
+        На всем пути следования от метро, присутствуют светофоры с индикаторами обратного отсчета и звуковым
+        обозначением. Бордюры оборудованы заниженными переходами для маломобильной группы населения
+      </p>
+      <div className="grid grid-cols-1 gap-1 justify-center w-full">
+        <img src="/images/contacts/map1.webp" className="w-1/2 ml-auto mr-auto" alt="карта маршрута"/>
+        <img src="/images/contacts/map2.webp" className="w-1/2 ml-auto mr-auto" alt="карта маршрута"/>
+        <img src="/images/contacts/map3.webp" className="w-1/2 ml-auto mr-auto" alt="карта маршрута"/>
+      </div>
+    </div>
+
+    <div className="mt-5">
+      <p className="custom-list-heading">ИНФОРМАЦИЯ О ПУТЯХ ДВИЖЕНИЯ ПО ТЕРРИТОРИИ ОБЪЕКТА</p>
+      <p className="custom-text">На территории, прилегающей к зданию учреждения, нет парковочных мест для автотранспорта людей с ограниченными
+        возможностями. Так же отсутствует выделенная парковка для клиентов медицинской организации. Организация
+        находится в зоне бесплатной парковки.
+      </p>
+      <p className="custom-text">Путь движения для пациентов с ограниченными возможностями здоровья осуществляется только через «Главный вход»
+        медицинской организации, который располагается в торце здания с левой стороны по адресу Большеохтинский проспект
+        16 корпус 1.
+      </p>
+
+      <div className="grid grid-cols-1 gap-1 justify-center w-full">
+        <img src="/images/contacts/map4.webp" alt="план" className="w-1/2 ml-auto mr-auto"/>
+      </div>
+    </div>
     <div className="custom-list">
       <p className="custom-list-heading"> Основные нормативные правовые акты:</p>
       <div className="custom-list-container">
@@ -117,9 +156,17 @@ const DostupnayaSreda = () => (
         <span className="custom-list-symbol"></span>
         <p>Распоряжение Комитета по социальной политике Санкт‑Петербурга от 04.04.2011 № 73-р «Об утверждении
           Методических рекомендаций по организации деятельности по созданию условий для беспрепятственного доступа
-          инвалидов и других маломобильных групп населения к объектам социальной инфраструктуры» и др.</p>
+          инвалидов и других маломобильных групп населения к объектам социальной инфраструктуры»</p>
       </div>
     </div>
+    <div className="grid xl:grid-cols-2 lg:grid-cols-1 gap-1 xl:mt-4 lg:mt-3">
+      <img src="/images/mobile-clients/mc1.jpg" alt=""/>
+      <img src="/images/mobile-clients/mc2.jpg" alt=""/>
+      <img src="/images/mobile-clients/mc3.jpg" alt=""/>
+      <img src="/images/mobile-clients/mc4.jpg" alt=""/>
+      <img src="/images/mobile-clients/mc5.jpg" alt=""/>
+    </div>
+
   </div>
 );
 
