@@ -1,4 +1,4 @@
-import { useState, useEffect, FC } from 'react';
+import {useState, useEffect, FC, ReactNode} from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -52,6 +52,7 @@ const Scroll = () => {
 
 const Layout: FC<{
   title: string;
+  children: ReactNode;
 }> = ({ title, children }) => {
   const router = useRouter();
   const isHasBack = !backlessLayoutPages.includes(router.pathname);

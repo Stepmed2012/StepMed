@@ -1,4 +1,6 @@
 // Carousel
+import {ReactNode} from "react";
+
 export interface IHomeCarousel {
   id: number;
   url: string;
@@ -37,7 +39,7 @@ export const homeCarousel: IHomeCarousel[] = [
 export interface IHomeDashboard {
   id: number;
   url: string;
-  icon: JSX.Element | JSX.IntrinsicElements;
+  icon: ReactNode;
   text: string;
   external?: boolean;
 }

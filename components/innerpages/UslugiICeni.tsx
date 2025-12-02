@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import {FC, ReactNode} from 'react';
 
 import {
   IUslugiICeni,
@@ -20,7 +20,7 @@ const PriceContent: FC<IUslugiICeni> = ({ service, price }) => (
   </div>
 );
 
-const PriceBlock: FC<{ title: string }> = ({ children, title }) => (
+const PriceBlock: FC<{ title: string, children: ReactNode }> = ({ children, title }) => (
   <>
     <h2 className="mb-3 sm:mb-4 lg:mb-6 custom-title">{title}</h2>
     <div className="-mx-3 sm:-mx-4 xl:mx-0">

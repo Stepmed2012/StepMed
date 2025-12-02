@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import {FC, ReactNode} from 'react';
 
 import {
   IPravilaGospitalizaciiHead,
@@ -34,7 +34,7 @@ const TableContent: FC<IPravilaGospitalizacii> = ({ order, name, date }) => (
   </div>
 );
 
-const Table: FC = ({ children }) => (
+const Table: FC<{children: ReactNode}> = ({ children }) => (
   <div className="custom-table pravilagospitalizacii--custom-table">
     <div className="custom-table-head">
       {pravilaGospitalizaciiHead.map((parameters) => (

@@ -2,7 +2,7 @@ import { useCallback, useEffect } from 'react';
 
 import { useStoreActions, useStoreState } from 'hooks';
 import { MessageStatusENUM } from 'store/models/regForm';
-import InputMask from 'react-input-mask';
+import InputMask from 'react-input-mask-next';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
 import WhatsAppIcon from '@icons/Whatsapp';
@@ -116,7 +116,7 @@ const Registration = () => {
                   type="text"
                   placeholder="Например, +7 (812) 123-45-67"
                   mask="+7 \(999) 999-99-99"
-                  {...register('phoneNumber', { required: true })}
+                  {...register('phoneNumber', {required: true})}
                 />
                 {formState.errors.phoneNumber && (
                   <p className="custom-input-error">

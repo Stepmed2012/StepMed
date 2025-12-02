@@ -1,4 +1,4 @@
-import { useState, FC } from 'react';
+import {useState, FC, ReactNode} from 'react';
 import classNames from 'classnames';
 import { homeAbout, IHomeAbout } from '@data/homePage';
 
@@ -12,6 +12,7 @@ const AboutStep: FC<IHomeAbout> = ({ title, description }) => (
 const Stepper: FC<{
   isActive: boolean;
   onClick: () => void;
+  children: ReactNode
 }> = ({ isActive, onClick, children }) => (
   <span
     className={classNames(
