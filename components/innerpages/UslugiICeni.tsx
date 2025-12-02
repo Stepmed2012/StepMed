@@ -45,74 +45,74 @@ const UslugiICeni = () => (
       ))}
     </PriceBlock>
 
-    <PriceBlock title={'03. Функциональная диагностика'}>
-      {uslugiICeniThird.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock title={'03. Функциональная диагностика'}>*/}
+    {/*  {uslugiICeniThird.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock
-      title={
-        '04. Магнитно-резонансная томография (без стоимости контрастного вещества)*'
-      }
-    >
-      {uslugiICeniFourth.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock*/}
+    {/*  title={*/}
+    {/*    '04. Магнитно-резонансная томография (без стоимости контрастного вещества)*'*/}
+    {/*  }*/}
+    {/*>*/}
+    {/*  {uslugiICeniFourth.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock title={'05. Компьютерная томография*'}>
-      {uslugiICeniFifth.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock title={'05. Компьютерная томография*'}>*/}
+    {/*  {uslugiICeniFifth.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock title={'06. Радиоизотопная позитронно-эмиссионная томография*'}>
-      {uslugiICeniSixth.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock title={'06. Радиоизотопная позитронно-эмиссионная томография*'}>*/}
+    {/*  {uslugiICeniSixth.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock title={'07. Рентгенодиагностика*'}>
-      {uslugiICeniSeventh.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock title={'07. Рентгенодиагностика*'}>*/}
+    {/*  {uslugiICeniSeventh.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock title={'08. Ультразвуковая диагностика*'}>
-      {uslugiICeniEighth.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock title={'08. Ультразвуковая диагностика*'}>*/}
+    {/*  {uslugiICeniEighth.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
 
-    <PriceBlock
-      title={'09. Морфологические и молекулярно-генетические исследования*'}
-    >
-      {uslugiICeniNinth.map((parameters) => (
-        <PriceContent {...parameters} key={parameters.id} />
-      ))}
-    </PriceBlock>
-    <p className="custom-text-info">
-      * - услуги оказываются партнерами ООО «Степмед клиник»
-    </p>
+    {/*<PriceBlock*/}
+    {/*  title={'09. Морфологические и молекулярно-генетические исследования*'}*/}
+    {/*>*/}
+    {/*  {uslugiICeniNinth.map((parameters) => (*/}
+    {/*    <PriceContent {...parameters} key={parameters.id} />*/}
+    {/*  ))}*/}
+    {/*</PriceBlock>*/}
+    {/*<p className="custom-text-info">*/}
+    {/*  * - услуги оказываются партнерами ООО «Степмед клиник»*/}
+    {/*</p>*/}
   </div>
 );
 
