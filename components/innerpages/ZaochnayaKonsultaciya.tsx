@@ -60,10 +60,8 @@ const ZaochnayaKonsultaciya = () => (
       срок терапевтической давности, превышение которого может привести к
       невозможности правильной их интерпретации. С данной информацией Вы можете
       ознакомиться в разделе{' '}
-      <Link href="/pravila-gospitalizacii">
-        <a className="text-base font-bold text-primary custom-link md:text-lg lg:text-xl">
-          правила госпитализации
-        </a>
+      <Link href="/pravila-gospitalizacii" className="text-base font-bold text-primary custom-link md:text-lg lg:text-xl">
+        правила госпитализации
       </Link>
       {''}.
     </p>

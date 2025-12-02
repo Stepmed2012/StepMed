@@ -93,11 +93,9 @@ const Layout: FC<{
         <main className="main-block">
           {isHasBack && (
             <div className="container flex-row mt-8 md:mt-10 lg:mt-12 2xl:mt-16">
-              <Link href="/">
-                <a className="main-back">
-                  <span className="main-back-icon"></span>
-                  <span className="main-back-text">На главную</span>
-                </a>
+              <Link href="/" className="main-back">
+                <span className="main-back-icon"></span>
+                <span className="main-back-text">На главную</span>
               </Link>
             </div>
           )}

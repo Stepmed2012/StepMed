@@ -77,10 +77,8 @@ export const FooterContactsBlock: FC<{
 
 const FooterLinksdBlock: FC<INavBarMenu> = ({ url, title }) => (
   <li className="mb-2">
-    <Link href={url!}>
-      <a className="text-sm font-bold text-white transition duration-200 ease-in-out opacity-50 lg:hover:opacity-100">
-        {title}
-      </a>
+    <Link href={url!} className="text-sm font-bold text-white transition duration-200 ease-in-out opacity-50 lg:hover:opacity-100">
+      {title}
     </Link>
   </li>
 );

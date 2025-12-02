@@ -16,8 +16,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.67.0",
-    "react-ig-feed": "^1.7.0",
-    "react-input-mask": "^2.0.4",
     "react-input-mask-next": "^3.0.0-alpha.12",
     "react-yandex-maps": "^4.6.0"
   },

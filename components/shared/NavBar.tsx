@@ -49,14 +49,11 @@ const MenuItem: FC<INavBarMenu> = ({ url, title, external }) => {
 
   if (url) {
     return (
-      <Link href={url}>
-        <a
-          className={classNames('nav__menu-link', {
-            active: router.pathname === url,
-          })}
-        >
-          {title}
-        </a>
+      <Link
+        href={url}
+        className={classNames('nav__menu-link', { active: router.pathname === url,})}
+      >
+        {title}
       </Link>
     );
   }
@@ -128,9 +125,9 @@ const Menu: FC = () => {
 
 const Logo = ({ isOpened = false }) => (
   <Link href="/">
-    <a className="z-20 custom-link">
+    <b className="z-20 custom-link">
       {isOpened ? <LogoWhite /> : <LogoColor />}
-    </a>
+    </b>
   </Link>
 );
 

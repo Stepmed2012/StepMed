@@ -1,5 +1,6 @@
-import InstagramFeed from 'react-ig-feed';
-import 'react-ig-feed/dist/index.css';
+// install package "react-ig-feed": "^1.7.0",
+// import InstagramFeed from 'react-ig-feed';
+// import 'react-ig-feed/dist/index.css';
 
 const News = () => (
   <>
